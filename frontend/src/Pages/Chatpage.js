@@ -4,6 +4,7 @@ import Chatbox from "../components/Chatbox";
 import MyChats from "../components/MyChats";
 import SideDrawer from "../components/miscellaneous/SideDrawer";
 import { ChatState } from "../Context/ChatProvider";
+import React from "react";
 
 const Chatpage = () => {
   const [fetchAgain, setFetchAgain] = useState(false);

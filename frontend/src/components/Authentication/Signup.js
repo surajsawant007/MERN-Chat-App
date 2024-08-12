@@ -6,6 +6,7 @@ import { useToast } from "@chakra-ui/toast";
 import axios from "axios";
 import { useState } from "react";
 import { useHistory } from "react-router";
+import React from "react";
 
 const Signup = () => {
   const [show, setShow] = useState(false);
@@ -101,8 +102,8 @@ const Signup = () => {
       const data = new FormData();
       data.append("file", pics);
       data.append("upload_preset", "chat-app");
-      data.append("cloud_name", "piyushproj");
-      fetch("https://api.cloudinary.com/v1_1/piyushproj/image/upload", {
+      data.append("cloud_name", "de3lxyh3h");
+      fetch("https://api.cloudinary.com/v1_1/de3lxyh3h/image/upload", {
         method: "post",
         body: data,
       })

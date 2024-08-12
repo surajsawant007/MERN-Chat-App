@@ -1,6 +1,8 @@
 import { Avatar } from "@chakra-ui/avatar";
 import { Tooltip } from "@chakra-ui/tooltip";
 import ScrollableFeed from "react-scrollable-feed";
+import React from "react";
+
 import {
   isLastMessage,
   isSameSender,
